@@ -1,0 +1,164 @@
+.skl {
+    background-image: url("img/bg.gif");
+    background-color: #cccccc;
+}
+.abt  {
+    background-image: url("img/bggg.jpg");
+    background-color: #cccccc;
+}
+.ppp{
+background-image: url(img/t1.jpg);
+    background-repeat:repeat;
+    background-attachment: fixed;
+	}
+	
+	
+	
+	
+	
+	.portfolio-modal .modal-content {
+    padding: 100px 0;
+    min-height: 100%;
+    border: 0;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    text-align: center;
+    -moz-background-clip: border-box;
+    -webkit-background-clip: border-box;
+    background-clip: border-box;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+    .portfolio-modal .modal-content h2 {
+        margin-bottom: 15px;
+        font-size: 3em;
+    }
+
+    .portfolio-modal .modal-content p {
+        margin-bottom: 30px;
+    }
+
+        .portfolio-modal .modal-content p.item-intro {
+            margin: 20px 0 30px;
+            font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+            font-size: 16px;
+            font-style: italic;
+        }
+
+    .portfolio-modal .modal-content ul.list-inline {
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
+
+    .portfolio-modal .modal-content img {
+        margin-bottom: 30px;
+    }
+
+.portfolio-modal .close-modal {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    width: 75px;
+    height: 75px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+    .portfolio-modal .close-modal:hover {
+        opacity: .3;
+    }
+
+    .portfolio-modal .close-modal .lr {
+        z-index: 1051;
+        width: 1px;
+        height: 75px;
+        margin-left: 35px;
+        background-color: #222;
+        -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
+        -o-transform: rotate(45deg);
+        transform: rotate(45deg);
+    }
+
+        .portfolio-modal .close-modal .lr .rl {
+            z-index: 1052;
+            width: 1px;
+            height: 75px;
+            background-color: #222;
+            -webkit-transform: rotate(90deg);
+            -ms-transform: rotate(90deg);
+            -moz-transform: rotate(90deg);
+            -o-transform: rotate(90deg);
+            transform: rotate(90deg);
+        }
+
+.portfolio-modal .modal-backdrop {
+    display: none;
+    opacity: 0;
+
+}
+
+
+.fig {
+	width: 200px;
+	height: 200px;
+	margin: 0;
+	padding: 0;
+	background: #fff;
+	overflow: hidden;
+}
+.fig:hover+span {
+	bottom: -36px;
+	opacity: 1;
+}
+.fig img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.fig:hover img {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
+
+
+.immgg{
+width: 100%;
+   height:250px;
+}
+section#contact .form-group {
+margin-bottom:25px;
+}
+
+section#contact .form-group input,section#contact .form-group textarea {
+padding:20px;
+}
+
+section#contact .form-group input.form-control {
+height:auto;
+}
+
+section#contact .form-group textarea.form-control {
+height:200px;
+}
+
+section#contact .form-control:focus {
+box-shadow:none;
+border-color:#fed136;
+}
+
+section#contact .text-danger {
+color:#e74c3c;
+}
+
+.btns:hover{
+        color:blue;
+    }
+
+</style>
